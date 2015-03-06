@@ -21,12 +21,12 @@ const int INT16 = 16;
 const int INT8 = 8;
 
 int main(int argc, char**argv){
-	// totle element number of the set
+	// total element number of the set
 	int total = -1;
 	while(total!=0){
-		cout<<"Enter totle element number of the set, from 1 to 64. Enter 0 to exit.\n";
+		cout<<"Enter total element number of the set, from 1 to 64. Enter 0 to exit.\n";
 		cin>>total;
-		// total posible subset
+		// total possible subset
 		uint64_t t = pow(2,total);
 		// save these subsets result
 		vector<uint64_t> result;
